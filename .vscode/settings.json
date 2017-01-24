@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.fontFamily": "'PT Mono'",
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "eslint.nodePath": "${workspaceRoot}/node_modules"
+}

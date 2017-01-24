@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "command": "sh",
+  "args": [
+    "-c"
+  ],
+  "isShellCommand": true,
+  "echoCommand": true,
+  "tasks": [
+    {
+      "taskName": "build",
+      "args": [
+        "${workspaceRoot}/node_modules/.bin/webpack"
+      ],
+      "suppressTaskName": true,
+      "isBuildCommand": true
+    },
+    {
+      "taskName": "test",
+      "args": [
+        "${workspaceRoot}/node_modules/.bin/mocha --compilers js:babel-core/register"
+      ],
+      "suppressTaskName": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vscode-node-webpack-es7",
+  "version": "0.0.1",
+  "description": "Template project for writing node.js code by using es7 with vscode",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register",
+    "build": "./node_modules/.bin/webpack",
+    "re": "node ./build/index.js"
+  },
+  "author": "hsiaosiyuan0",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-preset-es2017": "^6.16.0",
+    "eslint": "^3.12.2",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-class-property": "^1.0.2",
+    "mocha": "^3.2.0",
+    "webpack": "^1.14.0"
+  }
+}

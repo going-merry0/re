@@ -1,0 +1,43 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "class-property"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "allowImportExportEverywhere": "false"
+  },
+  "rules": {
+    "no-const-assign": "warn",
+    "no-this-before-super": "warn",
+    "no-undef": "warn",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "constructor-super": "warn",
+    "valid-typeof": "warn",
+    "semi": [
+      "warn",
+      "never"
+    ],
+    "quotes": [
+      "warn",
+      "single"
+    ],
+    // allow paren-less arrow functions
+    "arrow-parens": 0,
+    // allow async-await
+    "generator-star-spacing": 0,
+    "space-before-function-paren": 0,
+    "class-property/class-property-semicolon": [
+      "warn",
+      "never"
+    ]
+  }
+}
